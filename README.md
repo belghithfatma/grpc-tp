@@ -1,4 +1,5 @@
 Tout d'abord nous avons créé le dossier du projet grpc-tp, puis nous avons installé les bibliothèques avec la commande npm install @grpc/grpc-js @grpc/proto-loader
+
 Après nous avons créé le fichier hello.proto et nous avons développé le fichier server.js pour créer le serveur gRPC où nous avons chargé le fichier hello.proto puis récupéré la définition du service.
 Ensuite, nous avons implémenté la fonction sayHello créé un serveur gRPC, ajouté le service Greeter puis lancé le serveur sur l’adresse 0.0.0.0:50051.
 Après nous avons créé le fichier client.js qui représente le client gRPC chargé de communiquer avec le serveur.
